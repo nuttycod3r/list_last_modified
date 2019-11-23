@@ -1,0 +1,13 @@
+[package]
+name = "list_last_modified"
+version = "0.1.0"
+authors = ["T. V. <nuttycod3r@gmail.com>"]
+edition = "2018"
+description = "Iterate through a directory recursively and obtain the last modified timestamp for each file. Output is written to a file sorted by the last modified timestamp."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.0"
+walkdir = "2.2.9"
+chrono = "0.4.9"
